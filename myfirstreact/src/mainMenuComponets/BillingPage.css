@@ -1,0 +1,489 @@
+#billing-div{
+   display: flex;
+   flex-direction: row;
+ 
+ 
+  
+}
+#first-row-bill{
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   background-color: rgb(230, 232, 232);
+   
+   
+}
+#inpu-total{
+   width: 600px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   margin-left: 0;
+   background-color: white;
+   padding: 2px;
+}
+/*
+table design
+*/
+
+/*
+fixed the table head to scrolling
+
+*/
+.tableHead{
+
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+
+/*
+previous page button and nextpage buttons
+*/
+.pagination-buttons{
+   display: flex;
+   flex-direction:row;
+   justify-content: space-between;
+   width: 600px;
+   
+}
+
+#tab-divbx{
+width: 600px;
+}
+.itemm{
+   display: flex;
+   flex-direction: row;
+   width: 600px;
+   margin-top: 200px;
+
+}
+
+#itemEnterlabel-row{
+   display: flex;
+   flex-direction: column;
+
+   margin-left: 2px;
+}
+/*
+this is itemNumber enter the input box
+*/
+#item-total{
+ 
+ border-radius: 4px;
+ width: 200px;
+
+ 
+}
+/*
+this is Quantity Enter the input Box
+*/
+#item-quantity{
+   border-radius: 4px;
+   width: 200px;
+   margin-left: 2px;
+}
+
+#inBox-colm{
+   display: flex;
+   flex-direction: column;
+  
+  
+}
+
+.iNumbers{
+   display: flex;
+   flex-direction: row;
+   width: 100px;
+}
+.calculateNumbers{
+ margin: 5px;
+ padding-left: 40px;
+}
+
+.ItemNumbers{
+   margin: 5px;
+   display: flex;
+   flex-direction: column;
+}
+#numberLable{
+   color: rgb(5, 5, 82);
+   padding: 2px;
+}
+#numberInput{
+   padding: 5px;
+   width: 110px;
+}
+#buttons{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-gap: 10px;
+}
+#buttons button {
+   width: 40px;
+   height: 40px;
+   border-radius: 7px;
+   font-size: 18px;
+   color: rgb(255, 255, 255);
+   background-color: #114df3;
+   border:1px solid black;
+ }
+ #buttons button:hover{
+   background-color: #f6f6f8;
+   color: black;
+ }
+
+ .btNumbersAc{
+   display: flex;
+   flex-direction: column;
+    
+    margin-left: 30px;
+    margin-top: 5px;
+    
+ }
+ #Ac{
+padding: 28px 20px;
+ background-color: #114df3;
+ color: white;
+ border: 1px solid black;
+ cursor: pointer;
+ border-radius: 5px;
+
+ }
+ #Ac:hover{
+   background-color: #f6f6f8;
+   color: black;
+ }
+
+ #clear{
+   padding: 28px 20px;
+   background-color: #114df3;
+   color: white;
+   border: 1px solid black;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-top: 30px;
+   
+ }
+ #clear:hover{
+   background-color: #f6f6f8;
+   color: black;
+ }
+/*
+this is second row
+*/
+#second-row-bill{
+  
+   background-color: rgb(242, 242, 242);
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+}
+#erroButtons{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+  padding: 10px;
+   background-color: rgb(216, 244, 244);
+  
+   
+}
+/*
+this is image desgin up image
+*/
+.imae-row{
+   display: flex;
+   flex-direction: row;
+}
+.arrow{
+   width: 53px;
+   height:50px;
+   background-color: grey;
+   border-radius: 4px;
+   padding: 7px;
+   margin: 2px;
+  
+ 
+}
+.arrows{
+padding-left: 15px;
+}
+/*
+.varaites{
+   background-color: #114df3;
+   color: #f6f6f8;
+   
+   border-radius: 6px;
+   margin: 3px;
+   width: 85px;
+   font-size: 15px;
+  
+}*/
+
+.varaites {
+
+   display: inline-block;
+  
+ }
+ 
+ .itemButton {
+   padding: 8px 10px;
+   background-color: #114df3;
+   color: #f6f6f8;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-size: 13px;
+   width: 80px; 
+   
+ }
+ 
+ .itemButton:hover {
+   background-color: #eff0f1;
+   color: black;
+ }
+ 
+.scroll{
+   width: 200px;
+   height: 300px;
+   overflow-y: scroll;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.imagesg{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr) ;
+   grid-gap: 6px;
+   background-color: rgb(188, 188, 188);
+   margin: 2px;
+   
+}
+.imagesg img{
+width: 153px;
+height: 60px;
+border-radius: 4px;
+border: 1px solid blue;
+cursor: pointer;
+}
+
+.billingButtons{
+  display: flex;
+  flex-direction: row;
+   background-color: rgb(183, 250, 183);
+  width: 746px;
+  height: 200px;
+   margin: 2px;
+}
+
+.firstbill{
+   display: flex;
+   width: 110px;
+   flex-direction: column;
+   
+}
+.firstsizebtn button{
+   background-color:rgb(246, 144, 19) ;
+   border: 1px solid black;
+   padding: 10px;
+   width: 100px;
+   height: 45px;
+   margin: 1px;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 9px;
+}
+.firstsizebtn button:hover{
+ background-color: aliceblue;
+}
+.secondsizebtn button{
+   background-color:rgb(246, 144, 19) ;
+   border: 1px solid black;
+   padding: 10px;
+   width: 100px;
+   height: 90px;
+   margin: 1px;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 9px;
+}
+.secondsizebtn button:hover{
+   background-color: aliceblue;
+ }  
+.secondbill{
+   display: flex;
+    width: 213px;
+   flex-direction: column; 
+  
+}
+.thirdbill{
+   display: flex;
+   flex-direction: column;
+   width: 100px;
+   margin: 1px;
+
+  
+}
+.thirdsizebtn button{
+   background-color:rgb(18, 226, 11) ;
+   border: 1px solid black;
+   padding: 10px;
+   width: 100px;
+   height: 45px;
+   margin: 1px;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 9px;
+}
+.thirdsizebtn button:hover{
+ background-color: aliceblue;
+}
+.fourthbill{
+display: flex;
+flex-direction: column;
+margin-left: 2px;
+
+width: 100px;
+}
+.fithbill{
+display: flex;
+flex-direction: column;
+width: 210px;
+
+margin: 3px;
+}
+
+.fithsizebtn button{
+background-color:rgb(18, 226, 11) ;
+   border: 1px solid black;
+   padding: 10px;
+   width: 100px;
+   height: 90px;
+   margin: 1px;
+   font-size: 13px;
+   font-weight: bold;
+   border-radius: 9px; 
+}
+.fithsizebtn button:hover{
+background-color: aliceblue;
+}  
+.billingButton button{
+   background-color:rgb(246, 144, 19) ;
+      border: 1px solid black;
+      padding: 10px;
+      width: 100px;
+      height: 90px;
+      margin: 1px;
+      font-size: 13px;
+      font-weight: bold;
+      border-radius: 9px;
+   }
+   .billingButton button:hover{
+      background-color: aliceblue;
+    }   
+
+
+    /*
+    new code added
+    */
+
+    #itemmInput{
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+      margin-top: 20px;
+  
+    }
+    #inputRows{
+      display: flex;
+      flex-direction: row;
+      width: 600px;
+      
+    
+    }
+    #itemNumbers{
+      display: flex;
+      flex-direction: column;
+      margin: 2px;
+      width:200px ;
+    }
+    #itemNumber{
+      width: 200px;
+    }
+    #qunatityRow{
+      display: flex;
+      flex-direction: column;
+      margin-top:3px;
+      margin-left: 40px;  
+      width:200px ;    
+    }
+    #quantityInput{
+      width: 200px;
+    }
+    #added{
+      font-size: 14px;
+      padding: 5px 20px;
+      height: 30px;
+      background-color: #114df3;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 59px;
+      margin-left: 20px;
+   }
+   #added:hover{
+      background-color: rgb(246, 246, 250);
+      color: black;
+   }
+   #lastrow{
+      display: flex;
+      flex-direction: row;
+      width: 600px;
+      margin: 3px;
+
+   }
+   #fisrstCol{
+      display: flex;
+      flex-direction: column;
+      width: 100px;
+   }
+   #lang{
+      font-size: 14px;
+      width: 80px;
+      height: 30px;
+      background-color: #114df3;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      
+   }
+   .lab{
+      color: blue;
+      padding: 2px;
+      size: 14px;
+   }
+   
+   #tab-divbx{
+      margin-top: 3px;
+      height: 270px;
+      }
+.defalutImage{
+   position: relative;
+  display: inline-block;
+}
+h6{
+   position: absolute;
+   top: 0;
+   left: 50%;
+   transform: translateX(-50%);
+   background-color:none;
+   color: #0a0a0a;
+   padding: 5px 10px;
+   font-size: 12px;
+   font-weight: 500;
+   text-align: center;
+   width: 100%;
+   box-sizing: border-box;
+}

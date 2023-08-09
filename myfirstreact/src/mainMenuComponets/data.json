@@ -1,0 +1,304 @@
+   [
+   {
+      
+      "itemNumber":"1",
+      "itemName":"Coffee",
+      "Purchased":"4",
+      "Price":"20",
+      "sold":"3",
+      "stockIn":"6",
+      "Type":"Drinks"
+     
+   },
+   {
+     
+      "itemNumber":"2",
+      "itemName":"Tea",
+      "Purchased":"3",
+      "Price":"25",
+      "sold":"3",
+      "stockIn":"10",
+      "Type":"Drinks"
+     
+   },
+   {    
+      "itemNumber":"3",
+      "itemName":"iced Tea",
+      "Purchased":"7",
+      "Price":"30",
+      "sold":"7",
+      "stockIn":"23",
+      "Type":"Drinks"
+
+   },
+   {
+   
+      "itemNumber":"4",
+      "itemName":"Burgger",
+      "Purchased":"3",
+      "Price":"15",
+      "sold":"5",
+      "stockIn":"8",
+      "Type":"Snacks"
+   },
+   {
+     
+      "itemNumber":"5",
+      "itemName":"Gray jelly",
+      "Purchased":"5",
+      "Price":"30",
+      "sold":"2",
+      "stockIn":"8",
+      "Type":"Snacks"
+
+   },
+   {
+      
+      "itemNumber":"6",
+      "itemName":"Black Coffee",
+      "Purchased":"9",
+      "Price":"40",
+      "sold":"2",
+      "stockIn":"10",
+      "Type":"Drinks"
+
+   },
+   {
+      
+      "itemNumber":"7",
+      "itemName":"Milk",
+      "Purchased":"7",
+      "Price":"30",
+      "sold":"6",
+      "stockIn":"10",
+      "Type":"Drinks"
+
+   },
+   {
+      
+      "itemNumber":"8",
+      "itemName":"Chocolate milk",
+      "Purchased":"7",
+      "Price":"34",
+      "sold":"6",
+      "stockIn":"10",
+      "Type":"Drinks"
+
+   },
+   {
+      
+      "itemNumber":"9",
+      "itemName":"Tomato juice",
+      "Purchased":"3",
+      "Price":"10",
+      "sold":"8",
+      "stockIn":"10",
+      "Type":"Drinks"
+
+
+   },
+   {
+      
+      "itemNumber":"10",
+      "itemName":"Fruit juice",
+      "Purchased":"4",
+      "Price":"20",
+      "sold":"3",
+      "stockIn":"6",
+      "Type":"Drinks"
+
+   },
+   
+   {
+      
+      "itemNumber":"11",
+      "itemName":"ice Cream",
+      "Purchased":"7",
+      "Price":"24",
+      "sold":"3",
+      "stockIn":"10",
+      "Type":"Snacks"
+      
+   },
+   {
+      
+      "itemNumber":"12",
+      "itemName":"Black tea",
+      "Purchased":"6",
+      "Price":"35",
+      "sold":"12",
+      "stockIn":"6",
+      "Type":"Drinks"
+
+
+   },
+   {
+      
+      "itemNumber":"13",
+      "itemName":"Noodles",
+      "Purchased":"4",
+      "Price":"20",
+      "sold":"3",
+      "stockIn":"6",
+      "Type":"Snacks"
+      
+   },
+   {
+     
+      "itemNumber":"14",
+      "itemName":"Popcorn",
+      "Purchased":"4",
+      "Price":"20",
+      "sold":"3",
+      "stockIn":"6",
+      "Type":"Snacks"
+     
+   },
+
+   {
+     
+      "itemNumber":"15",
+   "itemName":"Beef Jerky",
+   "Purchased":"7",
+   "Price":"34",
+   "sold":"6",
+   "stockIn":"10",
+   "Type":"Snacks"
+  
+   },
+
+   {
+     
+   "itemNumber":"16",
+   "itemName":"Cheese",
+   "Purchased":"7",
+   "Price":"34",
+   "sold":"6",
+   "stockIn":"100",
+   "Type":"Snacks"
+  
+   },
+   {
+     
+      "itemNumber":"17",
+   "itemName":"Chocolates",
+   "Purchased":"7",
+   "Price":"34",
+   "sold":"6",
+   "stockIn":"108",
+   "Type":"Snacks"
+  
+   },
+   {
+     
+      "itemNumber":"18",
+   "itemName":"Cakes",
+   "Purchased":"72",
+   "Price":"34",
+   "sold":"63",
+   "stockIn":"120",
+   "Type":"Snacks"
+   
+   },
+   {
+     
+      "itemNumber":"20",
+   "itemName":"Cold Coffee",
+   "Purchased":"72",
+   "Price":"34",
+   "sold":"23",
+   "stockIn":"110",
+   "Type":"Drinks"
+
+   },
+{
+     
+      "itemNumber":"21",
+   "itemName":"Green tea",
+   "Purchased":"7",
+   "Price":"20",
+   "sold":"16",
+   "stockIn":"30",
+   "Type":"Drinks"
+   
+   },
+   
+   {
+     
+      "itemNumber":"22",
+   "itemName":"Tea bag",
+   "Purchased":"17",
+   "Price":"30",
+   "sold":"34",
+   "stockIn":"100",
+   "Type":"Drinks"
+
+
+   },
+  
+   {
+     
+   "itemNumber":"23",
+   "itemName":"Hot chocolate",
+   "Purchased":"12",
+   "Price":"30",
+   "sold":"12",
+   "stockIn":"120",
+   "Type":"Drinks"
+
+   },
+
+   {
+   "itemNumber":"24",
+   "itemName":"Lemonade",
+   "Purchased":"7",
+   "Price":"34",
+   "sold":"6",
+   "stockIn":"220",
+   "Type":"Drinks"
+   }
+   ,
+   {
+      "itemNumber":"25",
+      "itemName":"Juice",
+      "Purchased":"7",
+      "Price":"34",
+      "sold":"6",
+      "stockIn":"220",
+      "Type":"Drinks"
+      },
+      
+      {
+         "itemNumber":"26",
+         "itemName":"Milk Shake",
+         "Purchased":"7",
+         "Price":"34",
+         "sold":"6",
+         "stockIn":"220",
+         "Type":"Drinks"
+         },
+        
+         {
+            "itemNumber":"27",
+            "itemName":"soda",
+            "Purchased":"7",
+            "Price":"34",
+            "sold":"6",
+            "stockIn":"220",
+            "Type":"Drinks"
+            },
+             
+         {
+            "itemNumber":"28",
+            "itemName":"soya milk",
+            "Purchased":"7",
+            "Price":"34",
+            "sold":"6",
+            "stockIn":"220",
+            "Type":"Drinks"
+            }
+           
+ 
+
+
+]

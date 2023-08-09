@@ -1,0 +1,27 @@
+.Fullcol{
+
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(238, 234, 234);
+   height: 1000px;
+}
+.firstRow{
+   display: flex;
+   flex-direction: row;
+   margin-top: 20px;
+}
+.icon-container{
+   margin: 5px;
+   margin-left: 10px;
+}
+h2{
+   margin-left: 510px;
+}
+.filterBox{
+   margin-top: 10px;
+}
+.tablerow{
+   padding: 20PX;
+   margin-left: 40px;
+   margin-right: 40px;
+}

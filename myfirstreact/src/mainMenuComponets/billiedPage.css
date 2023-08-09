@@ -1,0 +1,50 @@
+.BillFirt{
+   display: flex;
+   flex-direction: column;
+   width: 600px;
+   height: 350px;
+  background-color: rgb(227, 228, 230);
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   z-index: 1;
+}
+.table-div{
+   width: 600px;
+}
+.inpu-total{
+   width: 600px;
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   margin-left: 0;
+   background-color: white;
+   padding: 2px;
+}
+
+.payable{
+   border: 3px solid rgb(16, 16, 16);
+}
+#gst{
+   margin-right: 390px;
+}
+#Amount{
+   margin-left: 420px;
+}
+#payable{
+   margin-left: 420px;
+}
+#tender{
+   margin-left:427px;
+}
+#change{
+   margin-left: 427px;
+}
+.secondbilled{
+   display: flex;
+    width: 213px;
+   flex-direction: column; 
+   position: absolute;
+   right: 424px;
+   bottom: -7px;
+  
+}

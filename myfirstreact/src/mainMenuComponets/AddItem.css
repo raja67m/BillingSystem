@@ -1,0 +1,147 @@
+
+/*
+This is all componets added main
+*/
+.main-item-add{
+   background-color: #ddd;
+   height: 1000px;
+   margin: auto;
+ display: flex;
+ flex-direction: column;
+}
+.Add-item{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+h2{
+text-align: center;
+}
+
+/*
+This is input box align items
+*/
+.first-input-box{
+
+ display: flex;
+ flex-direction: column; 
+margin: 20px;
+
+
+}
+/*
+This is second input box column
+*/
+.second-input-box{
+   display: flex;
+ flex-direction: column; 
+ margin: 20px;
+
+
+}
+/*
+This is label column
+*/
+.first-label{
+   display: flex;
+ flex-direction: column; 
+ margin: 20px;
+}
+.second-label{
+   display: flex;
+   flex-direction: column;  
+   margin: 20px;
+}
+
+.buttons{
+
+   margin-top: 5px;
+ padding: 10px 20px;  
+
+}
+label{
+   padding: 10px 20px;
+   
+   margin: 5px;
+   
+}
+
+input{
+   padding: 12px 20px;
+   margin: 5px;
+border: none;
+}
+
+.add-ite{
+
+   margin-right: 5px;
+   padding: 8px 10px;
+   background-color: #188f1c;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+
+}
+.add-ite:hover{
+   background-color: #ddd;
+   color: black;
+
+   }
+
+.Cancle-item{
+   margin-right: 5px;
+   padding: 8px 10px;
+   background-color: #f50a0e;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+  
+}   
+
+.Cancle-item:hover{
+   background-color: #ddd;
+   color: black;
+  
+}
+
+select {
+   
+   padding: 15px;
+   border: 1px solid #0a0a0a;
+   border-radius: 4px;
+   background-color: #fff;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   width: 250px;
+   margin-left: 2px;
+   margin: 5px;
+ }
+ 
+ 
+ 
+ select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+   color: #666;
+ }
+ 
+ /* Style the dropdown options */
+ select option {
+   padding: 8px;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+ }
+.inven{
+   justify-content: center;
+}
+ 
+
+

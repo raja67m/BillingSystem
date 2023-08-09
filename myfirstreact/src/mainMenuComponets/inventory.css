@@ -1,0 +1,273 @@
+/*
+First div box total elements in this file
+*/
+
+.inventroy{
+   display: flex;
+   flex-direction: column;
+   padding:10px ;
+   background-color: #ddd;
+   
+
+
+}
+
+/*
+this is in another div include drop down and add item button
+*/
+.first-row{
+   display: flex;
+   flex-direction: row;
+}
+/*
+Add the home icon coloring
+*/
+
+.icon-container {
+  padding: 7px;
+  background-color: blue;
+  border-radius: 5px;
+  justify-content: center;
+  height: 40px;
+  width: 35px;
+  
+}
+
+
+.custom-icon {
+  color: white;
+  font-size: 20px;
+}
+
+h2{
+   text-align: center;
+   margin-right:400px ;
+}
+
+/*
+this is drop down div box alignment
+*/
+.drop-down-list{
+
+margin-left: 450px;
+
+}
+/*
+this is div box add item button alignments
+*/
+.add-button{
+margin-left: 410px;
+}
+
+/*
+in this label filter and search label
+*/
+label{
+   color: black;
+   font-size: 16px;
+   margin-right: 2px;
+   font-weight: bold;
+}
+input{
+   padding: 5px;
+   border-radius: 3px;
+   border-color: black;
+}
+/*
+In this drop down design 
+*/
+select {
+
+   border: 1px solid #ddd;
+   border-radius: 4px;
+   background-color: #fff;
+   font-family: Arial, sans-serif;
+   font-size: 14px;
+   width: 200px;
+ }
+ 
+
+ 
+
+
+ /*
+ this is add item button design
+ */
+.add-item{
+  
+   padding: 8px 10px;
+   background-color: #114df3;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+}
+.add-item:hover{
+background-color: #ddd;
+color: black;
+
+}
+/*
+This is serach box div box alignment 
+*/
+.second-row-search{
+   margin-left: 960px;
+}
+/*
+this is data table head and table data desgin and the table head fixed to
+*/
+
+
+  /*
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+ th, td {
+   padding: 10px;
+   text-align: left;
+   border-bottom: 1px solid #ddd;
+ }
+ */
+ .actions {
+   display: flex;
+   justify-content: flex-start;
+ }
+ 
+ /*
+ This is table data edit and delete button desgin
+ */
+ .edit-button, .delete-button {
+   margin-right: 5px;
+   padding: 6px 10px;
+   background-color: #0da412;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+ }
+ 
+ .delete-button {
+   background-color: #e81809;
+ }
+ 
+ .edit-button:hover  {
+   background-color: #ddd;
+   color: black;
+ }
+ .delete-button:hover{
+   background-color: #ddd;
+   color: black;
+ }
+ 
+ /* 
+ Alternate row colors 
+ tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+ }
+ 
+ tbody tr:nth-child(odd) {
+   background-color: #ffffff;
+ }
+ 
+
+ tbody tr:hover {
+   background-color: #d6d4d4;
+   cursor: pointer;
+ }
+ */
+ 
+ /*
+ popup the designing
+ */
+
+ .popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.popup-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.popup-buttons button {
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #f51a0b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-buttons button:hover {
+  background-color: #f68c8c;
+  color: black;
+}
+h4{
+ 
+text-align: center;
+
+}
+
+.label-class{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-boxs{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.pop-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#cancle-btn{
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #2c3ff2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#cancle-btn:hover{
+  background-color: #bea7f7;
+  color: black;
+}
+#Update-btn{
+  margin-left: 10px;
+  padding: 8px 16px;
+  background-color: #09af22;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#Update-btn:hover{
+  background-color: #67f969;
+  color: black;
+
+}
